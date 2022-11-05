@@ -2,7 +2,7 @@
 #include <stdio.h>  //standard input output
 #include <stdlib.h>  //for calling malloc function
 
-struct node{
+struct node{ //structure
   int data;
   struct node *link;
 };
